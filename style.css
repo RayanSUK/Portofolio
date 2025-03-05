@@ -60,3 +60,18 @@ b{
      /* Css du C de logo*/
     color: var(--my-color-jaune);
 }
+
+.menu{
+    display: flex; /* Positionnment meme ligne */
+}
+
+.menu li{
+    margin: 0 15px;
+}
+
+.menu li a{
+    font-size: 25px;
+    color: var(--my-color-gris-fonce);
+    letter-spacing: 3px;
+    text-transform: capitalize;
+}
