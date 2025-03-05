@@ -75,3 +75,9 @@ b{
     letter-spacing: 3px;
     text-transform: capitalize;
 }
+
+.reseaux a{
+    font-size: 30px;
+    color: var(--my-color-gris-fonce);
+    margin: 25px 10px; 
+}
