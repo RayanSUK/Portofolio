@@ -57,5 +57,6 @@ b{
 }
 
 .logo span{
+     /* Css du C de logo*/
     color: var(--my-color-jaune);
 }
