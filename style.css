@@ -49,3 +49,13 @@
     cursor: pointer;
     text-transform: uppercase;
 }
+
+b{
+    /* Css du point de logo*/
+    font-size: 70px;
+    color: var(--my-color-jaune);
+}
+
+.logo span{
+    color: var(--my-color-jaune);
+}
