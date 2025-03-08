@@ -23,6 +23,8 @@
     width: 100%;
     min-height: 100vh;
     background-color: var(--my-color-gris);
+
+    padding-top: 80px; 
 }
 
 .entete{
@@ -84,4 +86,28 @@ b{
 
 .menu li:hover a, .reseaux a:hover{
     color: var(--my-color-jaune); /*survole en jaune avec la souris*/
+}
+
+.corps{
+   display: flex;
+   width: 100%; /*largeur*/
+   height: 100vh;
+   justify-content: center; 
+   align-items: center;
+}
+
+.Cgauche, .Cdroite{
+    width: 50%;
+} 
+
+.Cgauche{
+    z-index: 5;
+}
+
+.textB{
+    display: block;
+    position: relative;
+    font-size: 35px;
+    letter-spacing: 5px;
+    color: var(--my-color-gris-fonce);
 }
