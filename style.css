@@ -94,6 +94,8 @@ b{
    height: 100vh;
    justify-content: center; 
    align-items: center;
+   padding: 0 10%;
+   overflow: hidden;
 }
 
 .Cgauche, .Cdroite{
@@ -111,3 +113,5 @@ b{
     letter-spacing: 5px;
     color: var(--my-color-gris-fonce);
 }
+
+
