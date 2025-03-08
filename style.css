@@ -114,4 +114,11 @@ b{
     color: var(--my-color-gris-fonce);
 }
 
-
+.textB::after{
+    /*pour le tiret apres le salut (il existe before aussi)*/
+    position: absolute;
+    content: '';
+    height: 4px;
+    width: 45px;
+    
+}
