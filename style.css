@@ -165,3 +165,45 @@ button{
 button:hover{
     background-color: var(--my-color-jaune);
 }
+
+.groupImg{
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.groupImg img{ 
+    position: relative;
+    height: 100%;
+    width: calc(105%); /*fonction pour calcul*/
+    right: -25px;
+    top: 5px;
+    animation: animateImg 5s linear infinite;
+
+}
+
+@keyframes animateImg{
+    50%{
+        right: 10px;
+        top: 15px;
+    }
+}
+
+.groupImg #idspl{
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%,-50%) rotate(-15deg);
+    filter: saturate(200);
+    width: 160%;
+    animation: animateSplash 5s linear infinite;
+}
+
+@keyframes animateSplash{
+    50%{
+        right: 37%;
+        top: 60%;
+        width: 155%;
+    
+    }
+}
