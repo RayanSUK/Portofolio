@@ -120,5 +120,48 @@ b{
     content: '';
     height: 4px;
     width: 45px;
+    bottom: 10px;
+    background-color: var(--my-color-jaune);
     
+}
+
+h1{
+    display: block;
+    font-size: 3em;
+    font-weight: 900;
+    color: var(--my-color-gris-fonce);
+}
+
+p{
+    display: block;
+    width: 90%;
+    font-size: 1.1em;
+    text-align: justify;
+    color: var(--my-color-gris-fonce);
+}
+
+.btn2{
+    width: 100%;
+    position: relative;
+    left: 50px;
+}
+
+button{
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 25px;
+    font-weight: 400;
+    background-color: var(--my-color-gris-fonce);
+    color: #fff;
+    padding: 8px 14px;
+    margin: 40px 5px;
+    letter-spacing: 2px;
+    text-transform: capitalize;
+    box-shadow: 0 15px 10px rgba(0, 0, 0, 0.4);
+
+}
+
+button:hover{
+    background-color: var(--my-color-jaune);
 }
